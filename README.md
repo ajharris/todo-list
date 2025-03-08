@@ -1,12 +1,53 @@
-# React + Vite
+# Task Manager
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Overview
+This is a simple Task Manager application built with React. It allows users to add, edit, mark as completed, and delete tasks. The app maintains state using the `useState` hook and provides basic task management functionality.
 
-Currently, two official plugins are available:
+## Features
+- Add new tasks
+- Edit existing tasks
+- Mark tasks as completed
+- Delete tasks
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Installation
 
-## Expanding the ESLint configuration
+To run the project locally, follow these steps:
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+1. Clone the repository:
+   ```sh
+   git clone <repository-url>
+   ```
+
+2. Navigate to the project directory:
+   ```sh
+   cd task-manager
+   ```
+
+3. Install dependencies:
+   ```sh
+   npm install
+   ```
+
+4. Start the development server:
+   ```sh
+   npm start
+   ```
+
+The app should now be running at `http://localhost:3000`.
+
+## Usage
+
+1. Enter a task in the input field and click the "Add" button to add it to the list.
+2. To edit a task, click the "Edit" button next to it. The task will appear in the input field, allowing modification. Click "Edit" to save changes.
+3. To mark a task as completed, click the checkbox next to it. The task text will be crossed out.
+4. To delete a task, click the "Delete" button.
+
+## Technologies Used
+- React
+- JavaScript (ES6+)
+- HTML
+- CSS
+
+## License
+This project is licensed under the MIT License.
+
